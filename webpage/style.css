@@ -1,0 +1,29 @@
+h1, h2, h3 {
+    text-align: center;
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background: url("spacebackground.png");
+    color: greenyellow;
+    text-align: center;
+}
+
+.sectionheader {
+    text-align: left;
+    padding-left: 50px;
+    color: lightblue;
+    
+}
+
+.spaceinfo {
+    color: lightblue;
+    text-align: left;
+    padding-left: 50px;
+}
+
+.spaceinfolist{
+    text-align: left;
+    color: lightblue;
+    padding-left: 50px;
+}
