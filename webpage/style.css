@@ -4,9 +4,12 @@ h1, h2, h3 {
 
 body {
     font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
     background: url("spacebackground.png");
+    background-repeat: repeat;
     color: greenyellow;
     text-align: center;
+    cursor: url("cursor.png") 16 16, auto;
 }
 
 .sectionheader {
@@ -26,4 +29,54 @@ body {
     text-align: left;
     color: lightblue;
     padding-left: 50px;
+}
+
+.sectionheaderlego {
+    color: yellow;
+    text-align: right;
+    padding-left: 50px;
+}
+
+.legoinfo{
+    color: yellow;
+    text-align: right;
+    padding-left: 50px;
+}
+
+.sectionheaderfoods {
+    color: red;
+    text-align: left;
+    padding-left: 50px;
+}
+
+.foodsinfo{
+    color: red;
+    text-align: left;
+    padding-left: 50px;
+}
+
+.foodsinfotable{
+    color: red;
+    text-align: left;
+    padding-left: 50px;
+}
+
+table, th, td, tr {
+    border: 2px solid;
+    border-color: red;
+}
+
+a {
+    color: blue;
+    text-align: left;
+    padding-left: 50px;
+}
+
+a:hover {
+    color: magenta;
+    cursor: url("handcursor2.png") 16 16, auto;
+}
+
+.image {
+    box-shadow: 5px 5px gray;
 }
